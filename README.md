@@ -14,33 +14,10 @@ Uma plataforma moderna de orquestração de ambientes de desenvolvimento, inspir
 - ✅ **Responsivo** - Funciona em desktop, tablet e mobile
 - ✅ **Sem dependências externas** - Tudo via CDN
 
-## 📋 Pré-requisitos
-
-- **Navegador moderno** (Chrome, Firefox, Safari, Edge)
-- **Conexão com internet** (para carregar CDNs)
-- **Opcional**: Python ou Node.js (para servir localmente)
-
 ## 🚀 Como Usar
 
-### Opção 1: Abrir Diretamente no Navegador
-
-1. Extraia o arquivo `branchlift-vue.zip`
-2. Abra `index.html` diretamente no navegador
-3. Pronto! A aplicação está rodando
-
-### Opção 2: Usar Python (Recomendado)
-
-```powershell
-# Abra PowerShell na pasta do projeto
-.\start.ps1
-
-# Ou execute manualmente:
-python -m http.server 8000
-
-# Acesse em http://localhost:8000
-```
-
-### Opção 3: Usar Node.js
+### Opção 1
+: Usar Node.js
 
 ```powershell
 # Abra PowerShell na pasta do projeto
@@ -64,9 +41,7 @@ Ou crie sua própria conta usando o formulário de cadastro.
 branchlift-vue/
 ├── index.html           # Arquivo HTML principal com CDNs
 ├── app.js              # Aplicação Vue.js completa
-├── start.ps1           # Script para iniciar servidor
 ├── README.md           # Este arquivo
-└── AXIOS_GUIDE.md      # Guia detalhado sobre Axios
 ```
 
 ## 🔧 Tecnologias Utilizadas
@@ -235,49 +210,6 @@ localStorage.getItem("branchlift_envs_${userId}");
 - Criar novos ambientes de preview
 - Monitorar status de builds
 - Gerenciar ambientes criados
-
-## 🐛 Troubleshooting
-
-### Erro: "Repositório não encontrado"
-
-- Verifique se o nome está correto (formato: `owner/repo`)
-- Verifique sua conexão com internet
-- Aguarde alguns segundos e tente novamente
-
-### Erro: "Rate limit excedido"
-
-- Você atingiu o limite de 60 requisições/hora
-- Aguarde 1 hora ou use um token GitHub
-- Para usar token: edite `app.js` e adicione o header de autenticação
-
-### Dados não persistem após recarregar
-
-- Verifique se localStorage está habilitado no navegador
-- Tente limpar o cache e recarregar
-- Verifique se há espaço suficiente em localStorage
-
-## 💡 Dicas
-
-1. **Customize as cores**: Edite as variáveis CSS no `index.html`
-2. **Adicione mais funcionalidades**: Estenda o `app.js` com novos componentes
-3. **Integre com backend real**: Substitua localStorage por requisições HTTP
-4. **Use token GitHub**: Aumente rate limit adicionando autenticação
-
-## 📚 Recursos Úteis
-
-- [Vue.js 3 Documentação](https://vuejs.org/)
-- [Axios Documentação](https://axios-http.com/)
-- [GitHub API Documentação](https://docs.github.com/en/rest)
-- [Tailwind CSS Documentação](https://tailwindcss.com/)
-
-## 🤝 Contribuindo
-
-Este é um projeto de demonstração. Sinta-se livre para:
-
-- Modificar o código
-- Adicionar novas funcionalidades
-- Customizar o design
-- Integrar com seu backend
 
 ## 📄 Licença
 
