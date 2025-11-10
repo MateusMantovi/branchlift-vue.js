@@ -17,6 +17,7 @@ Uma plataforma moderna de orquestração de ambientes de desenvolvimento, inspir
 ## 🚀 Como Usar
 
 ### Opção 1
+
 : Usar Node.js
 
 ```powershell
@@ -224,5 +225,3 @@ Este projeto é fornecido como está, sem garantias.
 5. **Deploy em produção**: Hospede em Vercel, Netlify ou seu servidor
 
 ---
-
-**Desenvolvido com ❤️ usando Vue.js 3 e Axios via CDN**
